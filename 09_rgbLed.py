@@ -12,7 +12,7 @@ for i in pins:
 
 p_R = GPIO.PWM(pins['pin_R'], 2000)  # set Frequece to 2KHz
 p_G = GPIO.PWM(pins['pin_G'], 2000)
-p_B = GPIO.PWM(pins['pin_B'], 5000)
+p_B = GPIO.PWM(pins['pin_B'], 2000)
 
 p_R.start(0)      # Initial duty Cycle = 0(leds off)
 p_G.start(0)
